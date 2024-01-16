@@ -210,15 +210,15 @@ font-size: 20px;
 .box1 img{
   
     width:100%;
-    height:500px;
+    height:auto;
    
    
    
 }
 .box2 img{
 
-    width:100%;
-    height: 500px;
+    width:73%;
+    height:auto;
 
    
 }
@@ -226,25 +226,25 @@ font-size: 20px;
   
 
     width:100%;
-    height:500px;
+    height:auto;
   
 }
 .box4 img{
     width:100%;
-    height:500px;
+    height:auto;
 }
 .box5 img{
     width:100%;
-    height:500px;
+    height:auto;
 }
 .box6 img{
     width:100%;
-    height:500px;
+    height:auto;
    
 }
 .box7 img{
     width:100%;
-    height:500px; 
+    height:auto;
 }
 
 
@@ -252,18 +252,19 @@ font-size: 20px;
 
 .img-container{
 
-    margin:100px auto 200px auto;
+display: block;
   justify-content: center;
   width:auto;
+  height: auto;
 
-
+lll
 
     
   }
   .st1{
     display: flex;
     width: 100%;
-    height: 500px;
+    height:auto;
     justify-content: center;
     flex-direction: row;
     gap: 20px;
@@ -273,7 +274,7 @@ font-size: 20px;
     margin-top: 20px;
     display: flex;
     width: 100%;
-    height: 500px;
+    height:auto;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
@@ -281,7 +282,7 @@ font-size: 20px;
   .st3{
     display: flex;
     width: 100%;
-    height: 500px;
+    height:auto;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
@@ -639,10 +640,6 @@ border-radius: 20px;
     justify-content: center;
 }
 
-.fast-contect{
-
-    
-}
 
 
 .fast-img img{
@@ -718,28 +715,76 @@ text-align: center;
 }
 .in-container{
     flex-direction: column;
+    height:auto;
    
+}
+.box1 img{
+   height: 200px;
+   width: 100%;
+  
+}
+.box2 img{
+    height: 200px;
+  width: 100%;
 }
 
 
-.st1{
-    flex-direction:column;
+.box3 img{
+    height: 200px;
+    width: 100%;
    
-    gap: 20px;
+ }
+ .box4 img{
+     height: 200px;
+   width: 100%;
+ }
+ .box5 img{
+    height: 200px;
+    width: 100%;
+   
+ }
+ .box6 img{
+    height: 200px;
+  width: 100%;
+}
+.box7 img{
+   height: 200px;
+   width: 100%;
+  
+}
+ 
+
+
+.st1{
+ 
+   height: 200px;
+   flex-direction:column ;
+    width: 100%;
+margin-top: 150px;
+    margin-bottom: 200px;
 
   }
   .sd2{
-  
-    flex-direction:column;
+ 
+    width: 100%;
+  height: 200px;
+ flex-direction: column;
+ margin-bottom: 350px;
    
-    gap: 20px;
+   
   }
   .st3{
-    flex-direction:column;
-   
-    gap: 20px;
-  }
   
+ width: 100%;
+   height: 200px;
+   margin-bottom: 150px;
+   flex-direction: column;
+
+ 
+  }
+  .img-container{
+    display: block;
+  }
 
 
   .input-main{
