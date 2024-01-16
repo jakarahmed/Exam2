@@ -189,6 +189,162 @@ font-size: 20px;
     width: auto;
 }
 
+.fast-button{
+    color: white;
+    font-size: 20px;
+    padding: 14px 35px;
+    background-color:  #FF5400;
+    border: none;
+    border-radius: 8px;
+}
+
+/*--------------------------- 2nd section--------*/
+
+.conte{
+    text-align: center;
+}
+
+
+
+.box1{
+    grid-area:box1;
+    width: 500px;
+    height: 300px;
+    border: 2px solid #FF5400;
+    background-image: url('B9A2-Hero-Travel/Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.box2{
+    grid-area:box2;
+    width: 573px;
+    height: 300px;
+    border: 2px solid #FF5400;
+    background-image: url('B9A2-Hero-Travel/Images/Rectangle\ 8\ \(1\).png');
+}
+.box3{
+    grid-area:box3;
+    border: 2px solid #FF5400;
+    width: 374px;
+    height: 286px;
+    background-image: url('B9A2-Hero-Travel/Images/Rectangle\ 6.png');
+}
+.box4{
+    grid-area:box4;
+    border: 2px solid #FF5400;
+    width: 574px;
+    height: 286px;
+    background-image: url('B9A2-Hero-Travel/Images/Rectangle\ 10.png');
+}
+.box5{
+    grid-area:box5;
+    border: 2px solid #FF5400;
+    width: 274px;
+    height: 286px;
+    background-image: url('B9A2-Hero-Travel/Images/Rectangle\ 9.png');
+}
+.box6{
+    grid-area:box6;
+  
+   
+    height: 300px;
+    background-image: url('B9A2-Hero-Travel/Images/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+ width: 500px;
+   
+}
+.box7{
+    grid-area:box7;
+  
+    width: 673px;
+    height: 300px;
+       background-image: url('B9A2-Hero-Travel/Images/Rectangle\ 10.png');
+}
+
+
+
+
+.img-container{
+    display: grid;
+    grid-template-areas:
+    'box1  box1 box2 box2  box2  box2'
+    'box3  box4 box4   box4   box5  box5'
+    'box6  box7 box7   box7   box7  box7';
+    margin: auto;
+  justify-content: center;
+  width:auto;
+
+  gap: 24px;
+
+    
+  }
+  
+  
+  
+/****----------------Choose-----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card{
+    display: flex;
+    margin:20px auto;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+
+    
+}
+.card1{
+  text-align:left;
+    width: 573px;
+    height: 284px;
+ 
+    padding: 32px;
+    border-radius: 10px;
+    background-color: aliceblue;
+ 
+}
+.ti{
+    font-size: 24px;
+    font-weight: 800px;
+    font-family: "Mulish", sans-serif;
+}
+.card2{
+    text-align:left;
+    width: 573px;
+    height: 284px;
+  
+    padding: 32px;
+    border-radius: 10px;
+    background-color: aliceblue;
+  
+        }
+
+.card3{
+    text-align:left;
+   width: 573px;
+   height: 284px;
+ 
+   padding: 32px;
+   border-radius: 10px;
+   background-color: aliceblue;
+                         
+}
+
+
+
 /*--------------------------------racponsive-----------*/
 @media screen and (max-width:600px) {
 
@@ -256,4 +412,11 @@ font-size: 20px;
 .fast-img img{
     width: 100%;
 }
+
+.card{
+    flex-direction: column;
+    text-align: center;
+}
+
+
 }
