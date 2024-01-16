@@ -1,0 +1,188 @@
+
+
+body{
+    margin: 20px 50px;
+}
+.nav-container{
+    font-family: "Mulish", sans-serif;
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav-se{
+    background-color: black;
+}
+
+
+
+
+
+#lo{
+    color: #FF5400;
+  font-size: 50px;
+  
+}
+.nav-title{
+    font-size: 36px;
+    font-weight: 800px;
+    font-family: "Mulish", sans-serif;
+}
+
+.nav-title::before{
+    content:"";
+   background-image: url('download.png');
+}
+.komola{
+    color:#FF5400;
+}
+.nav-box2 {
+    display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  
+  
+}
+
+.nav-box2 a{
+    text-decoration: none;
+   padding: 10px 30px;
+  font-size: 18px;
+  color: black;
+}
+.nav-box2 a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: "Mulish", sans-serif;
+}
+
+/*-------------------hader section--------------------*/
+
+.hader-main{
+    background-color: rgb(0, 0, 0);
+    
+    border: 2px solid red;
+    width:1170px;
+    height: 500px;
+    justify-content: center;
+    margin:auto;
+    padding: 122px auto;
+    background-image: url('B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: cover;
+    border-radius: 5px;
+    width: 100%;
+ opacity: 0.8;
+    
+ 
+    
+}
+.hader-content{
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+
+   
+   
+
+}
+.main-title{
+    font-size: 64px;
+    font-weight: 800px;
+    font-family: "Mulish", sans-serif;
+
+}
+.main-decption{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+
+.input-fild{
+
+   
+   
+   
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+   
+   }
+
+.input-main{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 1140px;
+    height: 50px;
+   
+    padding: 20px;
+    flex-direction: column;
+    background-color: #ffffffa2;
+    border-radius: 5px;
+}
+
+#text{
+  
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px 80px 10px 10px;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+.ja{
+    border-radius: 10px;
+ width: 200px;
+    border: none;
+  padding: 10px 20px;
+    font-size: 15px;
+    background-color: #FF5400;
+    color: white;
+}
+
+.j{
+    border-radius: 10px;
+    width: 200px;
+    font-size: 15px;
+    padding: 10px 80px 10px 10px;
+  
+}
+
+/*--------------------------------racponsive-----------*/
+@media screen and (max-width:600px) {
+
+    .main-nav{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+.input-fild{
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    gap: 20px;
+  
+  
+}
+
+}
