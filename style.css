@@ -19,11 +19,11 @@ body{
 
 #lo{
     color: #FF5400;
-  font-size: 50px;
+  font-size: 30px;
   
 }
 .nav-title{
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 800px;
     font-family: "Mulish", sans-serif;
 }
@@ -31,6 +31,8 @@ body{
 .nav-title::before{
     content:"";
    background-image: url('download.png');
+   background-repeat: no-repeat;
+ 
 }
 .komola{
     color:#FF5400;
@@ -537,12 +539,12 @@ border-radius: 10px;
 width: 100%;
 }
 .sm{
-    margin-top: 200px;
-    margin-left: 200px;
+    margin-top: 400px;
+    margin-left: 400px;
     transform: rotate(-45deg);
 text-align: center;
 border-radius: 20px;
-    width:55%;
+    width:40%;
     height: 50px;
     background-color: #FF5400;
     color: white;
@@ -594,7 +596,7 @@ border-radius: 20px;
 
 
     body{
-        margin:5px;
+        margin:15px;
     }
 
     .main-nav{
@@ -810,6 +812,19 @@ margin-top: 150px;
     display: block;
   }
 
+  
+  .sm{
+    margin-top: 200px;
+    margin-left: 200px;
+    transform: rotate(-45deg);
+text-align: center;
+border-radius: 20px;
+    width:40%;
+    height: 50px;
+    background-color: #FF5400;
+    color: white;
+    transform: scale('19deg');
+}
 
 
   .input-main{
@@ -840,6 +855,7 @@ margin-top: 150px;
 .nav-box3{
     font-size: 20px;
     display: flex;
+    margin-left: 80px;
     justify-content: space-between;
     align-items: center;
 }
